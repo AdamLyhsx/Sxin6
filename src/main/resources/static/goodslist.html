@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+      <link href="css/login.css" rel="stylesheet" />
+      <title>商品列表</title>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light mb-lg-4 mb-2 ">
+      <a class="navbar-brand mx-3" href="index.html">Sxin6</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-item nav-link mx-3" href="index.html">主页</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link mx-3 navbar-right" href="login.html">登录</a>
+              <a class="nav-item nav-link mx-3 navbar-right" href="register.html">注册</a>
+          </div>
+      </div>
+  </nav>
+
+  <div class="container">
+            <div class="col">
+                  <h3 class="text-center">商品列表</h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>商品名</th>
+                            <th>商品描述</th>
+                            <th>商品图片</th>
+                            <th>商品价格</th>
+                            <th>商品销量</th>
+                            <th>商品库存</th>
+                        </tr>
+                        </thead>
+                        <tbody id="container">
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+            </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+  </body>
+<script>
+    var g_goodsList=[];
+    $(document).ready(function () {
+        $.ajax({
+            url:"http://localhost:8086/goods/goodslist",
+            type:"GET",
+            dataType:"json",
+            xhrFields:{withCredentials:true},
+            success:function (data) {
+                if(data.status=="success"){
+                    g_goodsList=data.data;
+                    reloadDom();
+                }else{
+                    alert("获取商品列表失败1，原因为"+data.data.errMsg);
+                }
+            },
+            error:function (data) {
+                alert("获取商品列表失败2，原因为"+data.responseText);
+            }
+        })
+    })
+    function reloadDom() {
+        for(var i=0,l=g_goodsList.length;i<l;i++){
+            var goods=g_goodsList[i];
+            var dom="<tr data-id='"+goods.id+"'   id='goodsDetail"+goods.id+"'><td><a href='http://localhost:8086/goods/get?id="+goods.id+"'>"+goods.title+"</a></td><td>"+goods.description+"</td><td><img style='width: 100px;height: auto;'  src='"+goods.imgUrl+"'></td><td>"+goods.price+"</td><td>"+
+            goods.sales+"</td><td>"+goods.stock+"</td></tr>";
+            $("#container").append($(dom));
+
+            $("#goodsDetail"+goods.id).on("click",function (e) {
+                window.location.href="goodsdetail.html?id="+$(this).data("id");
+            });
+        }
+    }
+
+
+</script>
+</html>

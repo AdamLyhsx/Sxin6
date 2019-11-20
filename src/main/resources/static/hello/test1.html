@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:8005/login/%22 -->
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+    <link href="../css/login.css" rel="stylesheet" />
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-nav" aria-expanded="false">
+            <span class="sr-only">切换导航条</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://127.0.0.1:8005/login/%22#">云宠物CloudPet</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="my-nav">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://127.0.0.1:8005/index/">主页</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              
+                  <li><a href="http://127.0.0.1:8005/login/">登录</a></li>
+                  <li><a href="http://127.0.0.1:8005/register/">注册</a></li>
+              
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    
+    <div class="container">
+        <div class="col-md-offset-4 col-md-4">
+            <form class="form-login" action="http://127.0.0.1:8005/login/" method="post">
+                
+
+
+                <input type="hidden" name="csrfmiddlewaretoken" value="DXEUFoVOF2fBViMnAUpMIFUumPFue2GIagJOPioKo6znNDAYu2I2SKQqCoY9EUw6">
+                <h2 class="text-center">欢迎登录</h2>
+
+                <div class="form-group">
+                    <label for="id_username">用户名:</label>
+                    <input type="text" name="username" class="form-control" maxlength="128" required="" id="id_username">
+                </div>
+                <div class="form-group">
+                    <label for="id_password">密码:</label>
+                    <input type="password" name="password" class="form-control" maxlength="256" required="" id="id_password">
+                </div>
+                <div class="form-group">
+                    
+                    <label for="id_captcha_1">验证码:</label>
+                    
+<img src="./登录_files/saved_resource" alt="captcha" class="captcha"><input id="id_captcha_0" name="captcha_0" type="hidden" value="a9ff3009756630d1348ed3dd0b4714aa67715bf7">
+<input autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" id="id_captcha_1" name="captcha_1" type="text">
+
+
+                </div>
+
+                <button type="reset" class="btn btn-default pull-left">重置</button>
+                <button type="submit" class="btn btn-primary pull-right">提交</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+
+
+  
+</body>
+</html>
