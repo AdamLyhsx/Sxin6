@@ -13,6 +13,8 @@ import com.adamly.xin6.validator.ValidatorImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,6 +30,7 @@ public class UserServiceImpl implements UserService {
     ValidatorImpl validator;
 
     @Override
+    @Cacheable(value = "redisCache",key = "'redis_userModel_'+#id")
     public UserModel getUserById(Integer id) {
         UserDO userDO=userDOMapper.selectByPrimaryKey(id);
         if(userDO==null){
@@ -39,7 +42,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public void register(UserModel userModel) throws BusinessException {
+    @CachePut(value = "redisCache",key = "'redis_userModel_'+#result.id")
+    public UserModel register(UserModel userModel) throws BusinessException {
 //        使用前参数校验（判空）
         if(userModel==null){
             throw new BusinessException(EmBusinessErrror.PARAMETER_VALIDATION_ERROR);
@@ -66,7 +70,7 @@ public class UserServiceImpl implements UserService {
         userModel.setId(userDO.getId());
         UserPasswordDO userPasswordDO=conventPasswordFromModel(userModel);
         userPasswordDOMapper.insertSelective(userPasswordDO);
-        return;
+        return userModel;
     }
 
     @Override

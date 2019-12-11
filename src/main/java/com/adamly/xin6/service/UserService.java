@@ -8,7 +8,8 @@ public interface UserService {
     UserModel getUserById(Integer id);
 
 //    用户注册服务
-    void register(UserModel userModel) throws BusinessException;
+//    void register(UserModel userModel) throws BusinessException;
+    UserModel register(UserModel userModel) throws BusinessException;
 
 //    用户登录服务
 //    void login(String telphone,String encrptPassword) throws BusinessException;
