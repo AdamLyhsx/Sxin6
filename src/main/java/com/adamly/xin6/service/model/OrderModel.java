@@ -1,5 +1,6 @@
 package com.adamly.xin6.service.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -7,7 +8,7 @@ import java.math.BigDecimal;
  * @version 1.0
  * @date 2019/10/24 20:40
  */
-public class OrderModel {
+public class OrderModel implements Serializable {
     private String id;
 
     private Integer user_id;

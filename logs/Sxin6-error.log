@@ -1,0 +1,8 @@
+2020-02-05 20:19:40:040-CST ERROR 95340  --- [http-nio-8086-exec-1] com.adamly.xin6.controller.learn.RedisController #57#testStringAndHash :error level
+2020-02-05 20:19:43:043-CST ERROR 95340  --- [http-nio-8086-exec-3] com.adamly.xin6.controller.HelloController #21#hello :error level
+2020-02-05 20:21:56:056-CST ERROR 87512  --- [http-nio-8086-exec-9] com.adamly.xin6.controller.learn.RedisController #57#testStringAndHash :error level
+2020-02-05 20:22:03:003-CST ERROR 87512  --- [http-nio-8086-exec-8] com.adamly.xin6.controller.HelloController #21#hello :error level
+2020-02-06 13:15:02:002-CST ERROR 112820  --- [initTaskScheduler-1] org.springframework.data.redis.listener.RedisMessageListenerContainer #651#handleSubscriptionException :Connection failure occurred. Restarting subscription task after 5000 ms
+2020-02-06 14:17:22:022-CST ERROR 87288  --- [http-nio-8086-exec-5] com.adamly.xin6.controller.learn.RedisController #57#testStringAndHash :error level
+2020-02-06 14:17:32:032-CST ERROR 87288  --- [http-nio-8086-exec-8] com.adamly.xin6.controller.learn.RedisController #57#testStringAndHash :error level
+2020-02-06 14:18:28:028-CST ERROR 87288  --- [http-nio-8086-exec-1] com.adamly.xin6.controller.learn.RedisController #57#testStringAndHash :error level

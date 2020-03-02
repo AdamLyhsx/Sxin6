@@ -2,6 +2,7 @@ package com.adamly.xin6.service.model;
 
 import org.joda.time.DateTime;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -9,7 +10,7 @@ import java.math.BigDecimal;
  * @version 1.0
  * @date 2019/10/26 16:01
  */
-public class PromoModel {
+public class PromoModel implements Serializable {
     private Integer id;
 
 //    活动状态123

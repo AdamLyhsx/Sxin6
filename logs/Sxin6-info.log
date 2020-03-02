@@ -1,0 +1,490 @@
+2020-02-29 11:41:55:055-CST INFO  32396  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 32396 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 11:41:55:055-CST INFO  32396  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 11:42:01:001-CST INFO  32396  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 11:42:01:001-CST INFO  32396  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 11:42:01:001-CST INFO  32396  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 108ms. Found 0 repository interfaces.
+2020-02-29 11:42:03:003-CST INFO  32396  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb23ca8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 11:42:04:004-CST INFO  32396  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 8639 ms
+2020-02-29 11:42:05:005-CST INFO  32396  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 11:42:06:006-CST INFO  32396  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 11:42:08:008-CST INFO  32396  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 11:42:08:008-CST INFO  32396  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 11:42:08:008-CST INFO  32396  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 14.186 seconds (JVM running for 26.816)
+2020-02-29 11:42:42:042-CST INFO  32396  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 11:42:42:042-CST INFO  32396  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 11:42:42:042-CST INFO  32396  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 60 ms
+2020-02-29 11:42:56:056-CST INFO  32396  --- [http-nio-8086-exec-2] c.a.x.c.l.RedisController                     : info level12345
+2020-02-29 12:23:16:016-CST INFO  55896  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 55896 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 12:23:16:016-CST INFO  55896  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 12:23:18:018-CST INFO  55896  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 12:23:18:018-CST INFO  55896  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 12:23:18:018-CST INFO  55896  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$736d4d66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 12:23:19:019-CST INFO  55896  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 2712 ms
+2020-02-29 12:23:21:021-CST INFO  55896  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 12:23:24:024-CST INFO  55896  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 12:23:24:024-CST INFO  55896  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 12:23:25:025-CST INFO  55896  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 12:23:25:025-CST INFO  55896  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 8.874 seconds (JVM running for 16.238)
+2020-02-29 12:23:31:031-CST INFO  55896  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 12:23:31:031-CST INFO  55896  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 12:23:31:031-CST INFO  55896  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 16 ms
+2020-02-29 12:23:31:031-CST INFO  55896  --- [http-nio-8086-exec-1] c.a.x.c.l.RedisController                     : info level12345
+2020-02-29 13:53:40:040-CST INFO  72408  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 72408 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 13:53:40:040-CST INFO  72408  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 13:53:42:042-CST INFO  72408  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 13:53:42:042-CST INFO  72408  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 13:53:42:042-CST INFO  72408  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a84f5b39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 13:53:43:043-CST INFO  72408  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 13:53:44:044-CST INFO  72408  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 13:53:44:044-CST INFO  72408  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 3810 ms
+2020-02-29 13:53:45:045-CST INFO  72408  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 13:53:48:048-CST INFO  72408  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 13:53:49:049-CST INFO  72408  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 13:53:49:049-CST INFO  72408  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 13:53:49:049-CST INFO  72408  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 10.245 seconds (JVM running for 17.694)
+2020-02-29 13:54:29:029-CST INFO  72408  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 13:54:29:029-CST INFO  72408  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 13:54:29:029-CST INFO  72408  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 28 ms
+2020-02-29 13:55:55:055-CST INFO  37716  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 37716 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 13:55:55:055-CST INFO  37716  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 13:55:57:057-CST INFO  37716  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 13:55:57:057-CST INFO  37716  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 13:55:57:057-CST INFO  37716  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a61c1482] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 13:55:58:058-CST INFO  37716  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 3043 ms
+2020-02-29 13:55:59:059-CST INFO  37716  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 13:56:00:000-CST INFO  37716  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 13:56:00:000-CST INFO  37716  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 13:56:01:001-CST INFO  37716  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 13:56:01:001-CST INFO  37716  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 6.015 seconds (JVM running for 14.594)
+2020-02-29 13:56:05:005-CST INFO  37716  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 13:56:05:005-CST INFO  37716  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 13:56:06:006-CST INFO  37716  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 58 ms
+2020-02-29 14:04:32:032-CST INFO  65792  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 65792 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 14:04:32:032-CST INFO  65792  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 14:04:33:033-CST INFO  65792  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 14:04:34:034-CST INFO  65792  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 14:04:34:034-CST INFO  65792  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2020-02-29 14:04:34:034-CST INFO  65792  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b428f899] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 2666 ms
+2020-02-29 14:04:35:035-CST INFO  65792  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 14:04:37:037-CST INFO  65792  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 14:04:37:037-CST INFO  65792  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:04:37:037-CST INFO  65792  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 14:04:37:037-CST INFO  65792  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 5.813 seconds (JVM running for 13.954)
+2020-02-29 14:05:38:038-CST INFO  65792  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 14:05:38:038-CST INFO  65792  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 14:05:39:039-CST INFO  65792  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 64 ms
+2020-02-29 14:20:57:057-CST INFO  45148  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 45148 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 14:20:57:057-CST INFO  45148  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 14:20:59:059-CST INFO  45148  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 14:20:59:059-CST INFO  45148  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 14:20:59:059-CST INFO  45148  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4fb55f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 14:21:00:000-CST INFO  45148  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 14:21:01:001-CST INFO  45148  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 14:21:01:001-CST INFO  45148  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 4400 ms
+2020-02-29 14:21:04:004-CST INFO  45148  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 14:21:07:007-CST INFO  45148  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 14:21:07:007-CST INFO  45148  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:21:08:008-CST INFO  45148  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 14:21:08:008-CST INFO  45148  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 12.134 seconds (JVM running for 20.956)
+2020-02-29 14:21:14:014-CST INFO  45148  --- [http-nio-8086-exec-2] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 14:21:14:014-CST INFO  45148  --- [http-nio-8086-exec-2] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 14:21:14:014-CST INFO  45148  --- [http-nio-8086-exec-2] o.s.w.s.DispatcherServlet                     : Completed initialization in 62 ms
+2020-02-29 14:23:22:022-CST INFO  19328  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 19328 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 14:23:22:022-CST INFO  19328  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 14:23:24:024-CST INFO  19328  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 14:23:24:024-CST INFO  19328  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 14:23:24:024-CST INFO  19328  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 96ms. Found 0 repository interfaces.
+2020-02-29 14:23:25:025-CST INFO  19328  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbc896b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 14:23:26:026-CST INFO  19328  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 4507 ms
+2020-02-29 14:23:27:027-CST INFO  19328  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 14:23:29:029-CST INFO  19328  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 14:23:30:030-CST INFO  19328  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:23:30:030-CST INFO  19328  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 14:23:30:030-CST INFO  19328  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 8.763 seconds (JVM running for 18.481)
+2020-02-29 14:24:19:019-CST INFO  19328  --- [ttp-nio-8086-exec-10] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 14:24:19:019-CST INFO  19328  --- [ttp-nio-8086-exec-10] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 14:24:19:019-CST INFO  19328  --- [ttp-nio-8086-exec-10] o.s.w.s.DispatcherServlet                     : Completed initialization in 35 ms
+2020-02-29 14:42:29:029-CST INFO  71532  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 71532 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 14:42:29:029-CST INFO  71532  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 14:42:31:031-CST INFO  71532  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 14:42:31:031-CST INFO  71532  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 14:42:31:031-CST INFO  71532  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+2020-02-29 14:42:32:032-CST INFO  71532  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d36cc25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 14:42:33:033-CST INFO  71532  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 3892 ms
+2020-02-29 14:42:34:034-CST INFO  71532  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 14:42:36:036-CST INFO  71532  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 14:42:36:036-CST INFO  71532  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 14:42:36:036-CST INFO  71532  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 14:42:36:036-CST INFO  71532  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 7.855 seconds (JVM running for 16.433)
+2020-02-29 15:01:29:029-CST INFO  27592  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 27592 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 15:01:29:029-CST INFO  27592  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 15:01:30:030-CST INFO  27592  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 15:01:30:030-CST INFO  27592  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 15:01:30:030-CST INFO  27592  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$479a82c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 15:01:31:031-CST INFO  27592  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 15:01:32:032-CST INFO  27592  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 15:01:32:032-CST INFO  27592  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 2617 ms
+2020-02-29 15:01:32:032-CST INFO  27592  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 15:01:33:033-CST INFO  27592  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 15:01:34:034-CST INFO  27592  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 15:01:34:034-CST INFO  27592  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 15:01:34:034-CST INFO  27592  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 5.809 seconds (JVM running for 11.562)
+2020-02-29 15:01:57:057-CST INFO  27592  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 15:01:57:057-CST INFO  27592  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 15:01:57:057-CST INFO  27592  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 29 ms
+2020-02-29 15:08:34:034-CST INFO  9164  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 9164 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-02-29 15:08:34:034-CST INFO  9164  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-02-29 15:08:35:035-CST INFO  9164  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-29 15:08:35:035-CST INFO  9164  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-29 15:08:35:035-CST INFO  9164  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1be4cc54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-29 15:08:36:036-CST INFO  9164  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-02-29 15:08:37:037-CST INFO  9164  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-02-29 15:08:37:037-CST INFO  9164  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 2920 ms
+2020-02-29 15:08:37:037-CST INFO  9164  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-02-29 15:08:38:038-CST INFO  9164  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-02-29 15:08:39:039-CST INFO  9164  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-02-29 15:08:39:039-CST INFO  9164  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-02-29 15:08:39:039-CST INFO  9164  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 6.15 seconds (JVM running for 14.37)
+2020-02-29 15:09:32:032-CST INFO  9164  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-29 15:09:32:032-CST INFO  9164  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-02-29 15:09:32:032-CST INFO  9164  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 47 ms
+2020-03-01 10:52:35:035-CST INFO  53068  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 53068 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 10:52:35:035-CST INFO  53068  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 10:52:40:040-CST INFO  53068  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 10:52:40:040-CST INFO  53068  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 10:52:40:040-CST INFO  53068  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 105ms. Found 0 repository interfaces.
+2020-03-01 10:52:42:042-CST INFO  53068  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$97a6f84c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 10:52:44:044-CST INFO  53068  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 10:52:45:045-CST INFO  53068  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 10:52:45:045-CST INFO  53068  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 10448 ms
+2020-03-01 10:52:46:046-CST INFO  53068  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 10:52:53:053-CST INFO  53068  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 10:52:55:055-CST INFO  53068  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 10:52:55:055-CST INFO  53068  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 10:52:55:055-CST INFO  53068  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 21.961 seconds (JVM running for 34.108)
+2020-03-01 10:58:23:023-CST INFO  53068  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 10:58:23:023-CST INFO  53068  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 10:58:23:023-CST INFO  53068  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 63 ms
+2020-03-01 10:58:24:024-CST INFO  53068  --- [http-nio-8086-exec-1] c.a.x.c.l.RedisController                     : info level12345
+2020-03-01 10:58:53:053-CST INFO  53068  --- [http-nio-8086-exec-2] c.a.x.c.l.RedisController                     : info level12345
+2020-03-01 11:02:21:021-CST INFO  53068  --- [http-nio-8086-exec-6] c.a.x.c.l.RedisController                     : info level12345
+2020-03-01 12:06:17:017-CST INFO  31188  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 31188 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 12:06:17:017-CST INFO  31188  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 12:06:19:019-CST INFO  31188  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 12:06:19:019-CST INFO  31188  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 12:06:19:019-CST INFO  31188  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2020-03-01 12:06:20:020-CST INFO  31188  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b2a158] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 12:06:21:021-CST INFO  31188  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 3649 ms
+2020-03-01 12:06:22:022-CST INFO  31188  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 12:06:24:024-CST INFO  31188  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 12:06:25:025-CST INFO  31188  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 12:06:25:025-CST INFO  31188  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 12:06:25:025-CST INFO  31188  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 8.729 seconds (JVM running for 18.119)
+2020-03-01 12:08:32:032-CST INFO  31188  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 12:08:32:032-CST INFO  31188  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 12:08:32:032-CST INFO  31188  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 38 ms
+2020-03-01 12:08:32:032-CST INFO  31188  --- [http-nio-8086-exec-1] c.a.x.c.l.RedisController                     : info level12345
+2020-03-01 12:27:50:050-CST INFO  49952  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 49952 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 12:27:50:050-CST INFO  49952  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 12:27:53:053-CST INFO  49952  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 12:27:53:053-CST INFO  49952  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 12:27:53:053-CST INFO  49952  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 122ms. Found 0 repository interfaces.
+2020-03-01 12:27:55:055-CST INFO  49952  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6dde568e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 12:27:56:056-CST INFO  49952  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 5818 ms
+2020-03-01 12:27:57:057-CST INFO  49952  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 12:27:59:059-CST INFO  49952  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 12:28:00:000-CST INFO  49952  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 12:28:00:000-CST INFO  49952  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 12:28:00:000-CST INFO  49952  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 10.146 seconds (JVM running for 20.359)
+2020-03-01 12:28:07:007-CST INFO  49952  --- [http-nio-8086-exec-7] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 12:28:08:008-CST INFO  49952  --- [http-nio-8086-exec-7] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 12:28:08:008-CST INFO  49952  --- [http-nio-8086-exec-7] o.s.w.s.DispatcherServlet                     : Completed initialization in 17 ms
+2020-03-01 12:28:08:008-CST INFO  49952  --- [http-nio-8086-exec-7] c.a.x.c.l.RedisController                     : info level12345
+2020-03-01 12:31:29:029-CST INFO  23308  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 23308 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 12:31:29:029-CST INFO  23308  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 12:31:30:030-CST INFO  23308  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 12:31:30:030-CST INFO  23308  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 12:31:30:030-CST INFO  23308  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2020-03-01 12:31:31:031-CST INFO  23308  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49c14a4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 12:31:31:031-CST INFO  23308  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 3039 ms
+2020-03-01 12:31:32:032-CST INFO  23308  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 12:31:34:034-CST INFO  23308  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 12:31:34:034-CST INFO  23308  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 12:31:34:034-CST INFO  23308  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 12:31:34:034-CST INFO  23308  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 6.152 seconds (JVM running for 17.072)
+2020-03-01 12:31:40:040-CST INFO  23308  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 12:31:40:040-CST INFO  23308  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 12:31:40:040-CST INFO  23308  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 16 ms
+2020-03-01 13:48:17:017-CST INFO  72276  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 72276 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 13:48:17:017-CST INFO  72276  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 13:48:21:021-CST INFO  72276  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 13:48:21:021-CST INFO  72276  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 13:48:21:021-CST INFO  72276  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 207ms. Found 0 repository interfaces.
+2020-03-01 13:48:23:023-CST INFO  72276  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d24ee5b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 13:48:24:024-CST INFO  72276  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 13:48:25:025-CST INFO  72276  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 13:48:25:025-CST INFO  72276  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 7862 ms
+2020-03-01 13:48:25:025-CST INFO  72276  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 13:48:28:028-CST INFO  72276  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 13:48:30:030-CST INFO  72276  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 13:48:30:030-CST INFO  72276  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 13:48:30:030-CST INFO  72276  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 14.827 seconds (JVM running for 26.17)
+2020-03-01 13:48:40:040-CST INFO  72276  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 13:48:40:040-CST INFO  72276  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 13:48:40:040-CST INFO  72276  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 56 ms
+2020-03-01 14:31:55:055-CST INFO  10232  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 10232 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 14:31:55:055-CST INFO  10232  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 14:31:59:059-CST INFO  10232  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 14:31:59:059-CST INFO  10232  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 14:31:59:059-CST INFO  10232  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 276ms. Found 0 repository interfaces.
+2020-03-01 14:32:02:002-CST INFO  10232  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$87e2c230] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 14:32:03:003-CST INFO  10232  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 14:32:05:005-CST INFO  10232  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 14:32:05:005-CST INFO  10232  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 10336 ms
+2020-03-01 14:32:06:006-CST INFO  10232  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 14:32:10:010-CST INFO  10232  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 14:32:11:011-CST INFO  10232  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 14:32:11:011-CST INFO  10232  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 14:32:11:011-CST INFO  10232  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 18.194 seconds (JVM running for 26.414)
+2020-03-01 14:49:34:034-CST INFO  10232  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 14:49:34:034-CST INFO  10232  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 14:49:34:034-CST INFO  10232  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 182 ms
+2020-03-01 14:51:48:048-CST INFO  10232  --- [http-nio-8086-exec-5] c.a.d.p.DruidDataSource                       : {dataSource-1} inited
+2020-03-01 15:03:27:027-CST INFO  11676  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 11676 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 15:03:27:027-CST INFO  11676  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 15:03:29:029-CST INFO  11676  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 15:03:29:029-CST INFO  11676  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 15:03:29:029-CST INFO  11676  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b428f899] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 15:03:30:030-CST INFO  11676  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 15:03:31:031-CST INFO  11676  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 15:03:31:031-CST INFO  11676  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 3289 ms
+2020-03-01 15:03:31:031-CST INFO  11676  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 15:03:33:033-CST INFO  11676  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 15:03:33:033-CST INFO  11676  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 15:03:33:033-CST INFO  11676  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 15:03:33:033-CST INFO  11676  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 7.341 seconds (JVM running for 15.018)
+2020-03-01 15:03:42:042-CST INFO  11676  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 15:03:42:042-CST INFO  11676  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 15:03:42:042-CST INFO  11676  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 34 ms
+2020-03-01 15:03:43:043-CST INFO  11676  --- [http-nio-8086-exec-1] c.a.d.p.DruidDataSource                       : {dataSource-1} inited
+2020-03-01 15:48:39:039-CST INFO  78432  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 78432 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 15:48:39:039-CST INFO  78432  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 15:48:43:043-CST INFO  78432  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 15:48:43:043-CST INFO  78432  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 15:48:43:043-CST INFO  78432  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 103ms. Found 0 repository interfaces.
+2020-03-01 15:48:45:045-CST INFO  78432  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4290ccc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 15:48:46:046-CST INFO  78432  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 15:48:47:047-CST INFO  78432  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 15:48:47:047-CST INFO  78432  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 8328 ms
+2020-03-01 15:48:50:050-CST INFO  78432  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 15:48:53:053-CST INFO  78432  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 15:48:55:055-CST INFO  78432  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 15:48:55:055-CST INFO  78432  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 15:48:55:055-CST INFO  78432  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 17.307 seconds (JVM running for 26.062)
+2020-03-01 15:49:12:012-CST INFO  78432  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 15:49:12:012-CST INFO  78432  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 15:49:12:012-CST INFO  78432  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 34 ms
+2020-03-01 15:49:13:013-CST INFO  78432  --- [http-nio-8086-exec-1] c.a.d.p.DruidDataSource                       : {dataSource-1} inited
+2020-03-01 22:07:52:052-CST INFO  15020  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 15020 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 22:07:53:053-CST INFO  15020  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 22:07:57:057-CST INFO  15020  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 22:07:57:057-CST INFO  15020  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 22:07:57:057-CST INFO  15020  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 168ms. Found 0 repository interfaces.
+2020-03-01 22:07:58:058-CST INFO  15020  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f1b2776] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 22:07:59:059-CST INFO  15020  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 22:08:00:000-CST INFO  15020  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 22:08:00:000-CST INFO  15020  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 7108 ms
+2020-03-01 22:08:01:001-CST INFO  15020  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 22:08:07:007-CST INFO  15020  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 22:08:08:008-CST INFO  15020  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 22:08:08:008-CST INFO  15020  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 22:08:08:008-CST INFO  15020  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 16.898 seconds (JVM running for 28.686)
+2020-03-01 22:08:08:008-CST INFO  15020  --- [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 22:08:08:008-CST INFO  15020  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 22:08:08:008-CST INFO  15020  --- [http-nio-8086-exec-1] o.s.w.s.DispatcherServlet                     : Completed initialization in 20 ms
+2020-03-01 22:08:14:014-CST INFO  15020  --- [http-nio-8086-exec-2] c.a.d.p.DruidDataSource                       : {dataSource-1} inited
+2020-03-01 22:32:44:044-CST INFO  37160  --- [                main] c.a.x.Xin6Application                         : Starting Xin6Application on LAPTOP-NJTGG4S9 with PID 37160 (E:\code_test\springboot\Sxin6\target\classes started by 18373 in E:\code_test\springboot\Sxin6)
+2020-03-01 22:32:44:044-CST INFO  37160  --- [                main] c.a.x.Xin6Application                         : No active profile set, falling back to default profiles: default
+2020-03-01 22:32:46:046-CST INFO  37160  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 22:32:47:047-CST INFO  37160  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 22:32:47:047-CST INFO  37160  --- [                main] o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 113ms. Found 0 repository interfaces.
+2020-03-01 22:32:48:048-CST INFO  37160  --- [                main] RegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc7f8089] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat initialized with port(s): 8086 (http)
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.h.Http11NioProtocol                     : Initializing ProtocolHandler ["http-nio-8086"]
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.c.StandardService                       : Starting service [Tomcat]
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.c.StandardEngine                        : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.c.AprLifecycleListener                  : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.c.AprLifecycleListener                  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.c.AprLifecycleListener                  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 22:32:50:050-CST INFO  37160  --- [                main] o.a.c.c.AprLifecycleListener                  : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-03-01 22:32:51:051-CST INFO  37160  --- [                main] o.a.c.c.C.[.[.[/]                             : Initializing Spring embedded WebApplicationContext
+2020-03-01 22:32:51:051-CST INFO  37160  --- [                main] o.s.w.c.ContextLoader                         : Root WebApplicationContext: initialization completed in 6954 ms
+2020-03-01 22:32:52:052-CST INFO  37160  --- [                main] o.s.s.c.ThreadPoolTaskScheduler               : Initializing ExecutorService 'initTaskScheduler'
+2020-03-01 22:32:57:057-CST INFO  37160  --- [                main] o.s.b.a.w.s.WelcomePageHandlerMapping         : Adding welcome page: class path resource [static/index.html]
+2020-03-01 22:32:58:058-CST INFO  37160  --- [                main] o.a.c.h.Http11NioProtocol                     : Starting ProtocolHandler ["http-nio-8086"]
+2020-03-01 22:32:58:058-CST INFO  37160  --- [                main] o.s.b.w.e.t.TomcatWebServer                   : Tomcat started on port(s): 8086 (http) with context path ''
+2020-03-01 22:32:58:058-CST INFO  37160  --- [                main] c.a.x.Xin6Application                         : Started Xin6Application in 15.307 seconds (JVM running for 20.785)
+2020-03-01 22:33:10:010-CST INFO  37160  --- [http-nio-8086-exec-2] o.a.c.c.C.[.[.[/]                             : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 22:33:10:010-CST INFO  37160  --- [http-nio-8086-exec-2] o.s.w.s.DispatcherServlet                     : Initializing Servlet 'dispatcherServlet'
+2020-03-01 22:33:10:010-CST INFO  37160  --- [http-nio-8086-exec-2] o.s.w.s.DispatcherServlet                     : Completed initialization in 16 ms
+2020-03-01 22:33:11:011-CST INFO  37160  --- [http-nio-8086-exec-2] c.a.d.p.DruidDataSource                       : {dataSource-1} inited
+2020-03-01 22:33:18:018-CST INFO  37160  --- [http-nio-8086-exec-3] c.a.x.c.l.RedisController                     : info level12345

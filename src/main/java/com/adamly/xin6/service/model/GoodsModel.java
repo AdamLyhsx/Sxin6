@@ -3,6 +3,7 @@ package com.adamly.xin6.service.model;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -10,7 +11,7 @@ import java.math.BigDecimal;
  * @version 1.0
  * @date 2019/10/15 20:54
  */
-public class GoodsModel {
+public class GoodsModel implements Serializable {
     private Integer id;
 
     @NotBlank(message = "商品名称不能为空")

@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService {
     ValidatorImpl validator;
 
     @Override
-    @Cacheable(value = "redisCache",key = "'redis_userModel_'+#id")
+    @Cacheable(value = "xin6RedisCache1",key = "'redis_userModel_'+#id")
     public UserModel getUserById(Integer id) {
         UserDO userDO=userDOMapper.selectByPrimaryKey(id);
         if(userDO==null){
@@ -42,7 +42,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    @CachePut(value = "redisCache",key = "'redis_userModel_'+#result.id")
+    @CachePut(value = "xin6RedisCache1",key = "'redis_userModel_'+#result.id")
     public UserModel register(UserModel userModel) throws BusinessException {
 //        使用前参数校验（判空）
         if(userModel==null){
