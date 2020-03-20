@@ -1,8 +1,8 @@
 package com.adamly.xin6.response;
 
-//统一的返回类型
+//统一的返回类型类
 public class CommonReturnType {
-//    表明返回结果是success/fail
+//    状态是success/fail
     private String status;
 //    返回json数据/统一的错误类型
     private Object data;

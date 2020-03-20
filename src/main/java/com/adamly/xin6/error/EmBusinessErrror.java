@@ -1,17 +1,17 @@
 package com.adamly.xin6.error;
 
-//统一的错误类型
+//错误类型枚举
 public enum EmBusinessErrror implements CommonError{
-    //10000通用错误类型
+    //10000通用错误
     PARAMETER_VALIDATION_ERROR(10001,"参数不合法"),
     UNKNOWN_ERROR(10002,"未知错误"),
 
-    //20000用户信息相关错误类型
+    //20000用户信息相关错误
     USER_NUT_EXIST(20001,"用户不存在"),
     USER_LOGIN_FAIL(20002,"手机号或密码错误"),
     USER_NOT_LOGIN(20003,"用户还未登录"),
 
-//    30000商品信息相关错误类型
+//    30000商品信息相关错误
     GOODS_NUT_EXIST(30001,"商品不存在"),
 
 //    40000交易信息相关错误

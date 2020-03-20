@@ -122,6 +122,7 @@ public class RedisController extends BaseController {
     }
 
     @RequestMapping("/transaction")
+//    @SuppressWarnings("all")
     public CommonReturnType testTransaction(){
         redisTemplate.opsForValue().set("key1","value1");
         List list = (List)redisTemplate.execute(new SessionCallback() {

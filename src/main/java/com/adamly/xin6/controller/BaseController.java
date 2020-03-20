@@ -13,6 +13,7 @@ import java.util.Map;
 
 public class BaseController {
     public final static String CONTENT_TYPE_FORMD="application/x-www-form-urlencoded";
+    public final static String CONTENT_TYPE_JSON="application/json";
 
 
     //   定义ExceptionHandler捕获最上层的异常

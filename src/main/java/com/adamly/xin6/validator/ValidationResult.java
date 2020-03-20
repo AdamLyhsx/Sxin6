@@ -5,6 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.HashMap;
 import java.util.Map;
 
+//校验结果封装类
 public class ValidationResult {
     private boolean hasErr=false;
 

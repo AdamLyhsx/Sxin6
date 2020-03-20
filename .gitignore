@@ -30,3 +30,6 @@ build/
 ### VS Code ###
 .vscode/
 
+###/src/main/resources/static/bootstrap-4.3.1-dist/###
+###/src/main/resources/static/js/jquery.min.js###
+###/src/main/resources/static/js/popper.min.js###

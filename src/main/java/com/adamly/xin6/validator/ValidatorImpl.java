@@ -9,16 +9,17 @@ import javax.validation.Validator;
 import java.util.Set;
 
 @Component
+//对Hibernate Validator的封装类，封装了校验结果
 public class ValidatorImpl implements InitializingBean {
     private Validator validator;
 
-//    这个bean初始化后回调这个方法完成真正的初始化
+//    bean生命周期的属性设置方法
     @Override
     public void afterPropertiesSet() throws Exception {
         this.validator= Validation.buildDefaultValidatorFactory().getValidator();
     }
 
-//    实现真正的校验方法并返回校验结果
+//    编写封装的校验方法并返回封装的校验结果
     public ValidationResult validate(Object bean){
         final ValidationResult result=new ValidationResult();
         Set<ConstraintViolation<Object>> constraintViolationSet=validator.validate(bean);

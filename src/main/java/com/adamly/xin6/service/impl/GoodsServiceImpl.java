@@ -66,6 +66,7 @@ public class GoodsServiceImpl implements GoodsService {
         return goodsModelList;
     }
 
+
     @Override
     public GoodsModel getGoodsById(Integer id) throws BusinessException {
         if(id==null){
