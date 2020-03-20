@@ -1,7 +1,9 @@
-###*.js linguist-language=java###
-###*.css linguist-language=java###
+###/src/main/resources/static/bootstrap-4.3.1-dist/*.js linguist-language=java###
+###/src/main/resources/static/bootstrap-4.3.1-dist/*.css linguist-language=java###
+###/src/main/resources/static/js/jquery.min.js linguist-language=java###
+###/src/main/resources/static/js/popper.min.js linguist-language=java###
 
-/src/main/resources/static/bootstrap-4.3.1-dist/*.js linguist-language=java
-/src/main/resources/static/bootstrap-4.3.1-dist/*.css linguist-language=java
-/src/main/resources/static/js/jquery.min.js linguist-language=java
-/src/main/resources/static/js/popper.min.js linguist-language=java
+*.js linguist-language=java
+*.css linguist-language=java
+
+
