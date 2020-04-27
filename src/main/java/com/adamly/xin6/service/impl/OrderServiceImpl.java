@@ -102,7 +102,7 @@ public class OrderServiceImpl implements OrderService {
         return orderDO;
     }
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional(propagation = Propagation.REQUIRES_NEW )
     String generateOrderNO(){
         StringBuilder stringBuilder=new StringBuilder();
 //        八位时间信息

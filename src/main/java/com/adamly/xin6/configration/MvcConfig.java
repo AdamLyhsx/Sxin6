@@ -14,7 +14,7 @@ import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
  * @date 2020/3/13 22:27
  */
 @Configuration
-public class MvcConfig1 implements WebMvcConfigurer {
+public class MvcConfig implements WebMvcConfigurer {
     @Autowired
     private LocaleChangeInterceptor localeChangeInterceptor;
 
