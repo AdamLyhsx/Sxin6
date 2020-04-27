@@ -31,6 +31,8 @@ public class HelloController {
     @RequestMapping(value = "/hello2", method = RequestMethod.GET)
     public String hello2(HttpServletRequest request) {
         System.out.println("hello2--");
+//        Integer i=null;
+//        i.intValue();
         return "hello2";
     }
 
