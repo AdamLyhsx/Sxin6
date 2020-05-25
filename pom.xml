@@ -62,10 +62,10 @@
 <!--            <groupId>org.springframework.boot</groupId>-->
 <!--            <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
 <!--        </dependency>-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
@@ -258,9 +258,9 @@
                     </execution>
                 </executions>
                 <configuration>
-<!--                    是否允许移动-->
+                    <!--是否打印日志-->
                     <verbose>true</verbose>
-<!--                    是否允许覆盖-->
+                    <!--是否允许覆盖-->
                     <overwrite>false</overwrite>
                     <configurationFile>
                         src/main/resources/mybatis-generator.xml

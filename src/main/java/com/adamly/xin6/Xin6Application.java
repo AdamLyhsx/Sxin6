@@ -1,5 +1,6 @@
 package com.adamly.xin6;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,6 +22,7 @@ import javax.annotation.PostConstruct;
 import java.util.Locale;
 
 @SpringBootApplication(scanBasePackages = {"com.adamly.xin6"})
+@MapperScan("com.adamly.xin6.dao")
 @EnableCaching
 @PropertySource(value = {"classpath:my.properties"}, ignoreResourceNotFound = true)
 public class Xin6Application {
