@@ -1,11 +1,13 @@
-package com.adamly.xin6.controller;
+package com.adamly.xin6.controller.advice;
 
-public class BaseController {
-    public final static String CONTENT_TYPE_FORMD="application/x-www-form-urlencoded";
-    public final static String CONTENT_TYPE_JSON="application/json";
-
-
-    //   定义ExceptionHandler捕获最上层的异常
+/**
+ * @author adamly
+ * @version 1.0
+ * @date 2020/5/25 22:18
+ */
+//@ControllerAdvice(basePackages = "com.adamly.xin6.controller.*" ,annotations = Controller.class)
+//public class MyControllerAdvice {
+//    //    统一的异常处理方法
 //    @ExceptionHandler(Exception.class)
 //    @ResponseStatus(HttpStatus.OK)
 //    public Object handlerException(HttpServletRequest request, Exception ex){
@@ -14,12 +16,18 @@ public class BaseController {
 //            BusinessException businessException=(BusinessException)ex;
 //            responseData.put("errCode",businessException.getErrCode());
 //            responseData.put("errMsg",businessException.getErrMsg());
+//            System.out.println("hhhh3");
 //        } else {
 //            responseData.put("errCode", EmBusinessErrror.UNKNOWN_ERROR.getErrCode());
 //            responseData.put("errMsg",EmBusinessErrror.UNKNOWN_ERROR.getErrMsg());
 //            System.out.println(ex.getMessage());
 //            ex.printStackTrace();
 //        }
-//        return CommonReturnType.create(responseData,"fail");
+//        System.out.println("hhhh");
+//        ModelAndView mv = new ModelAndView();
+//        MappingJackson2JsonView jsonView= new MappingJackson2JsonView();
+//        mv.setView(jsonView);
+//        mv.addObject("return",CommonReturnType.create(responseData,"fail"));
+//        return mv;
 //    }
-}
+//}

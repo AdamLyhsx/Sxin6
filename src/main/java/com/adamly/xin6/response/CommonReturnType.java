@@ -5,20 +5,18 @@ public class CommonReturnType {
 //    状态是success/fail
     private String status;
 //    返回json数据/统一的错误类型
-    private Object data;
+    private Object content;
 
 //    创建方法
-    public static CommonReturnType create(Object data,String status){
+    public static CommonReturnType create(Object content,String status){
         CommonReturnType type=new CommonReturnType();
-        type.setData(data);
+        type.setContent(content);
         type.setStatus(status);
         return type;
     }
-    public static CommonReturnType create(Object data){
-        return create(data,"success");
+    public static CommonReturnType create(Object content){
+        return create(content,"success");
     }
-
-
 
     public String getStatus() {
         return status;
@@ -28,11 +26,11 @@ public class CommonReturnType {
         this.status = status;
     }
 
-    public Object getData() {
-        return data;
+    public Object getContent() {
+        return content;
     }
 
-    public void setData(Object data) {
-        this.data = data;
+    public void setContent(Object content) {
+        this.content = content;
     }
 }

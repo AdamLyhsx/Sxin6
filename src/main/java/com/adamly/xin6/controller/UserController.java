@@ -31,17 +31,28 @@ public class UserController extends BaseController {
 
     //    通过id获取用户数据的接口
     @RequestMapping("/getuser")
-//    @ResponseBody
     public CommonReturnType getUser(@RequestParam(name = "id") Integer id) throws BusinessException {
-//        数据库查找用户数据
         UserModel userModel = userService.getUserById(id);
         if (userModel == null) {
-//            userModel.setEncryptPassword("123");
             throw new BusinessException(EmBusinessErrror.USER_NUT_EXIST);
         }
-        UserVO userVO = convertFromModel(userModel);
-        return CommonReturnType.create(userVO);
+        userModel.setEncryptPassword(null);
+        return CommonReturnType.create(userModel);
     }
+
+//    //    通过id获取用户数据的接口
+//    @RequestMapping("/getuser")
+////    @ResponseBody
+//    public CommonReturnType getUser(@RequestParam(name = "id") Integer id) throws BusinessException {
+////        数据库查找用户数据
+//        UserModel userModel = userService.getUserById(id);
+//        if (userModel == null) {
+////            userModel.setEncryptPassword("123");
+//            throw new BusinessException(EmBusinessErrror.USER_NUT_EXIST);
+//        }
+//        UserVO userVO = convertFromModel(userModel);
+//        return CommonReturnType.create(userVO);
+//    }
 
     //    获取otp短信的接口
     @RequestMapping(value = "/getotp", method = RequestMethod.POST, consumes = {CONTENT_TYPE_FORMD})

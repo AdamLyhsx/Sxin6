@@ -7,7 +7,8 @@ public enum EmBusinessErrror implements CommonError{
     UNKNOWN_ERROR(10002,"未知错误"),
 
     //20000用户信息相关错误
-    USER_NUT_EXIST(20001,"用户不存在"),
+//    USER_NUT_EXIST(20001,"用户不存在"),
+    USER_NUT_EXIST(20002,"用户不存在"),
     USER_LOGIN_FAIL(20002,"手机号或密码错误"),
     USER_NOT_LOGIN(20003,"用户还未登录"),
 
