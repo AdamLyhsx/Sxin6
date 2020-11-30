@@ -5,7 +5,7 @@
 <Configuration status="WARN" monitorInterval="30">
     <Properties>
         <Property name="App">Sxin6</Property>
-        <Property name="logDir">D:/softcache/logs</Property>
+        <Property name="logDir">E:/sdo/logs</Property>
         <Property name="splitSize">30 MB</Property>
     </Properties>
 
