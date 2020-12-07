@@ -1,7 +1,7 @@
 package com.adamly.xin6.controller.learn;
 
 import com.adamly.xin6.dataobject.UserDO;
-import com.adamly.xin6.error.BusinessException;
+import com.adamly.xin6.response.BusinessException;
 import com.adamly.xin6.service.UserService;
 import com.adamly.xin6.service.model.UserModel;
 import org.springframework.beans.factory.annotation.Autowired;

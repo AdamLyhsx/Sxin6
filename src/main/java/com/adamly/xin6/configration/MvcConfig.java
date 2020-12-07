@@ -1,12 +1,13 @@
 package com.adamly.xin6.configration;
 
-import com.adamly.xin6.interceptor.MyInterceptor1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
+
+import com.adamly.xin6.device.interceptor.*;
 
 /**
  * @author adamly

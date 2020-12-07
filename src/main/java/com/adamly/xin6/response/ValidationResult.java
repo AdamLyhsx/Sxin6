@@ -1,4 +1,4 @@
-package com.adamly.xin6.validator;
+package com.adamly.xin6.response;
 
 import org.apache.commons.lang3.StringUtils;
 

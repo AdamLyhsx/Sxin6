@@ -1,4 +1,4 @@
-package com.adamly.xin6.error;
+package com.adamly.xin6.response;
 
 //业务异常类  错误类型的包装器
 public class BusinessException extends Exception implements CommonError{

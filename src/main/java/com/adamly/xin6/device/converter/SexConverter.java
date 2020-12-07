@@ -1,6 +1,6 @@
-package com.adamly.xin6.converter;
+package com.adamly.xin6.device.converter;
 
-import com.adamly.xin6.enumeration.SexEnum;
+import com.adamly.xin6.pojo.SexEnum;
 
 import javax.persistence.AttributeConverter;
 

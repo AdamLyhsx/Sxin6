@@ -1,4 +1,4 @@
-package com.adamly.xin6.enumeration;
+package com.adamly.xin6.pojo;
 
 /**
  * @author adamly

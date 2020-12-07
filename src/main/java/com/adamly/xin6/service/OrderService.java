@@ -1,6 +1,6 @@
 package com.adamly.xin6.service;
 
-import com.adamly.xin6.error.BusinessException;
+import com.adamly.xin6.response.BusinessException;
 import com.adamly.xin6.service.model.OrderModel;
 
 /**

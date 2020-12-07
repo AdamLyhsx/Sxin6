@@ -2,8 +2,8 @@ package com.adamly.xin6.service.impl;
 
 import com.adamly.xin6.dao.PromoDOMapper;
 import com.adamly.xin6.dataobject.PromoDO;
-import com.adamly.xin6.error.BusinessException;
-import com.adamly.xin6.error.EmBusinessErrror;
+import com.adamly.xin6.response.BusinessException;
+import com.adamly.xin6.response.EmBusinessErrror;
 import com.adamly.xin6.service.PromoService;
 import com.adamly.xin6.service.model.PromoModel;
 import org.joda.time.DateTime;

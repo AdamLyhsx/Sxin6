@@ -1,4 +1,4 @@
-package com.adamly.xin6.error;
+package com.adamly.xin6.response;
 
 //错误类型枚举
 public enum EmBusinessErrror implements CommonError{

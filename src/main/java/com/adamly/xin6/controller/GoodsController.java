@@ -1,11 +1,12 @@
 package com.adamly.xin6.controller;
 
 import com.adamly.xin6.controller.viewobject.GoodsVO;
-import com.adamly.xin6.error.BusinessException;
+import com.adamly.xin6.response.BusinessException;
 import com.adamly.xin6.response.CommonReturnType;
 import com.adamly.xin6.service.GoodsService;
 import com.adamly.xin6.service.model.GoodsModel;
 import com.adamly.xin6.service.model.PromoModel;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.joda.time.format.DateTimeFormat;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,13 +51,12 @@ public class GoodsController extends BaseController {
 
 //    查看商品列表的接口
     @RequestMapping(value = "/goodslist",method = RequestMethod.GET)
-    public CommonReturnType getGoodsList() throws BusinessException {
+    public CommonReturnType getGoodsList() throws BusinessException, JsonProcessingException {
         List<GoodsModel> goodsModelList=goodsService.goodsList();
 
         List<GoodsVO> goodsVOList=goodsModelList.stream().map(goodsModel -> {
             return this.conventVOFromModel(goodsModel);
         }).collect(Collectors.toList());
-
         return CommonReturnType.create(goodsVOList);
     }
 

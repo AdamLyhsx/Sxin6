@@ -1,7 +1,8 @@
 package com.adamly.xin6.service;
 
-import com.adamly.xin6.error.BusinessException;
+import com.adamly.xin6.response.BusinessException;
 import com.adamly.xin6.service.model.GoodsModel;
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 import java.util.List;
 
@@ -15,7 +16,7 @@ public interface GoodsService {
     GoodsModel createGoods(GoodsModel goodsModel) throws BusinessException;
 
 //    商品列表服务
-    List<GoodsModel> goodsList();
+    List<GoodsModel> goodsList() throws JsonProcessingException;
 
 //    商品详情服务
     GoodsModel getGoodsById(Integer id) throws BusinessException;

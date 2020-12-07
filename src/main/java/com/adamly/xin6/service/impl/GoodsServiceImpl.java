@@ -4,16 +4,19 @@ import com.adamly.xin6.dao.GoodsDOMapper;
 import com.adamly.xin6.dao.GoodsStockDOMapper;
 import com.adamly.xin6.dataobject.GoodsDO;
 import com.adamly.xin6.dataobject.GoodsStockDO;
-import com.adamly.xin6.error.BusinessException;
-import com.adamly.xin6.error.EmBusinessErrror;
+import com.adamly.xin6.response.BusinessException;
+import com.adamly.xin6.response.EmBusinessErrror;
 import com.adamly.xin6.service.GoodsService;
 import com.adamly.xin6.service.PromoService;
 import com.adamly.xin6.service.model.GoodsModel;
 import com.adamly.xin6.service.model.PromoModel;
-import com.adamly.xin6.validator.ValidationResult;
-import com.adamly.xin6.validator.ValidatorImpl;
+import com.adamly.xin6.response.ValidationResult;
+import com.adamly.xin6.response.ValidatorImpl;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,6 +38,9 @@ public class GoodsServiceImpl implements GoodsService {
     private GoodsStockDOMapper goodsStockDOMapper;
     @Autowired
     private PromoService promoService;
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+
 
     @Override
     @Transactional
@@ -56,13 +62,17 @@ public class GoodsServiceImpl implements GoodsService {
     }
 
     @Override
-    public List<GoodsModel> goodsList() {
+    public List<GoodsModel> goodsList() throws JsonProcessingException {
         List<GoodsDO> goodsDOList=goodsDOMapper.selectGoodsList();
         List<GoodsModel> goodsModelList=goodsDOList.stream().map(goodsDO -> {
             GoodsStockDO goodsStockDO=goodsStockDOMapper.selectByGoodsId(goodsDO.getId());
             GoodsModel goodsModel=this.conventGoodsModelFromDataObject(goodsDO,goodsStockDO);
             return goodsModel;
         }).collect(Collectors.toList());
+
+        ObjectMapper objectMapper=new ObjectMapper();
+        stringRedisTemplate.opsForValue().set("goods",objectMapper.writeValueAsString(goodsModelList));
+
         return goodsModelList;
     }
 

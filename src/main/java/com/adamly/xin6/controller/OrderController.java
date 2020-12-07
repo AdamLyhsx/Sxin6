@@ -1,7 +1,7 @@
 package com.adamly.xin6.controller;
 
-import com.adamly.xin6.error.BusinessException;
-import com.adamly.xin6.error.EmBusinessErrror;
+import com.adamly.xin6.response.BusinessException;
+import com.adamly.xin6.response.EmBusinessErrror;
 import com.adamly.xin6.response.CommonReturnType;
 import com.adamly.xin6.service.OrderService;
 import com.adamly.xin6.service.model.OrderModel;

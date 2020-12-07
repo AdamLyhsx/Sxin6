@@ -1,4 +1,4 @@
-package com.adamly.xin6.listener;
+package com.adamly.xin6.device.listener;
 
 
 import org.springframework.data.redis.connection.Message;
@@ -16,7 +16,7 @@ public class RedisMessageListener implements MessageListener {
     @Override
     public void onMessage(Message message, byte[] pattern ){
         String body = new String(message.getBody());
-        String topic=new String(pattern);
+        String topic= new String(pattern);
         System.out.println(body+"-redisMessage-"+topic);
     }
 

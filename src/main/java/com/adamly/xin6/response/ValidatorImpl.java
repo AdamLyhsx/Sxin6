@@ -1,4 +1,4 @@
-package com.adamly.xin6.validator;
+package com.adamly.xin6.response;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;

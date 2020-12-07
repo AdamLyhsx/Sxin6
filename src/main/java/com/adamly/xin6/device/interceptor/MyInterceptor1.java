@@ -1,4 +1,4 @@
-package com.adamly.xin6.interceptor;
+package com.adamly.xin6.device.interceptor;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
